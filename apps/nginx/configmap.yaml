@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-test
+  namespace: demo
+data:
+  message: "test-prune"
